@@ -1,29 +1,25 @@
-# WeChatFerry-CSharp
+ï»¿# WeChatFerry-CSharp
 
-ÖÇÄÜÁÄÌìÖúÊÖ£¬ÊÇÒ»¸öÍ¨ÓÃµÄÁÄÌì¸¨Öú³ÌĞò£¬Í¨¹ı **Nanomsg Ğ­Òé** ÓëÁÄÌìÈí¼ş»¥Í¨£¬ *PCÎ¢ĞÅ*¡£
+æ™ºèƒ½èŠå¤©åŠ©æ‰‹ï¼Œæ˜¯ä¸€ä¸ªé€šç”¨çš„èŠå¤©è¾…åŠ©ç¨‹åºï¼Œé€šè¿‡ **Nanomsg åè®®** ä¸èŠå¤©è½¯ä»¶äº’é€šï¼Œ *PCå¾®ä¿¡*ã€‚
 
-> ±¾ÏîÄ¿**Î´¶ÔÎ¢ĞÅ³ÌĞò½øĞĞÈÎºÎÆÆ½â»òĞŞ¸Ä**£¬ÓëÎ¢ĞÅ»¥²Ù×÷µÄÄÜÁ¦¾ù»ùÓÚ¿ªÔ´ÏîÄ¿ [WeChatFerry RPC](https://github.com/lich0821/WeChatFerry/tree/master/WeChatFerry) ÊµÏÖ£¬¸ĞĞ»¸÷Î»¿ªÔ´¹±Ï×Õß¡£
+> æœ¬é¡¹ç›®**æœªå¯¹å¾®ä¿¡ç¨‹åºè¿›è¡Œä»»ä½•ç ´è§£æˆ–ä¿®æ”¹**ï¼Œä¸å¾®ä¿¡äº’æ“ä½œçš„èƒ½åŠ›å‡åŸºäºå¼€æºé¡¹ç›® [WeChatFerry RPC](https://github.com/lich0821/WeChatFerry/tree/master/WeChatFerry) å®ç°ï¼Œæ„Ÿè°¢å„ä½å¼€æºè´¡çŒ®è€…ã€‚
 
-## ÃâÔğÉùÃ÷
+## å…è´£å£°æ˜
 
-[WeChatFerry-CSharp](https://github.com/send010/WeChatFerry-CSharp) ºÍ [WeChatFerry](https://github.com/lich0821/WeChatFerry) ÊÇ¹©Ñ§Ï°½»Á÷µÄ¿ªÔ´ÏîÄ¿£¬´úÂë¼°ÆäÖÆÆ·½ö¹©²Î¿¼£¬²»±£Ö¤ÖÊÁ¿£¬²»¹¹³ÉÈÎºÎÉÌÒµ³ĞÅµ»òµ£±££¬²»µÃÓÃÓÚÉÌÒµ»ò·Ç·¨ÓÃÍ¾£¬Ê¹ÓÃÕß×ÔĞĞ³Ğµ£ºó¹û¡£
+[WeChatFerry-CSharp](https://github.com/send010/WeChatFerry-CSharp) å’Œ [WeChatFerry](https://github.com/lich0821/WeChatFerry) 
+æ˜¯ä¾›å­¦ä¹ äº¤æµçš„å¼€æºé¡¹ç›®ï¼Œä»£ç åŠå…¶åˆ¶å“ä»…ä¾›å‚è€ƒï¼Œä¸ä¿è¯è´¨é‡ï¼Œä¸æ„æˆä»»ä½•å•†ä¸šæ‰¿è¯ºæˆ–æ‹…ä¿ï¼Œä¸å¾—ç”¨äºå•†ä¸šæˆ–éæ³•ç”¨é€”ï¼Œä½¿ç”¨è€…è‡ªè¡Œæ‰¿æ‹…åæœã€‚
 
+## æ”¯æŒç‰ˆæœ¬
 
-## Ö§³Ö°æ±¾
+åŸºäºWeChatFerry RPCå®ç°ï¼Œå…·ä½“æ”¯æŒåŠŸèƒ½å’Œç‰ˆæœ¬å¯æŸ¥çœ‹[WeChatFerry](https://github.com/lich0821/WeChatFerry) ç‰ˆæœ¬è·Ÿéšã€‚
+å¾®ä¿¡ `3.9.11.25`ï¼ˆ[è¿™é‡Œèƒ½æ‰¾åˆ°](https://github.com/lich0821/WeChatFerry/releases/tag/v39.3.5)
 
-»ùÓÚWeChatFerry RPCÊµÏÖ£¬¾ßÌåÖ§³Ö¹¦ÄÜºÍ°æ±¾¿É²é¿´[WeChatFerry](https://github.com/lich0821/WeChatFerry) 
+## ä»‹ç»
 
-Ä¿Ç°£ºwcfbinÏÂµÄ
+ç›®å‰åªå®ç°äº†åº“çš„åŸºæœ¬åŠŸèƒ½ï¼Œåç»­ä¼šç»§ç»­å®Œå–„ã€‚
 
-v3.9.10.27
-
-v3.9.11.17
-
-ÊÇÎÒ×Ô¼º±àÒëµÄ£¬¾õµÃ²»°²È«»òÕßÓĞ±ğµÄĞèÇóµÄ¿ÉÒÔ×ÔĞĞ±àÒë
-
-## ²Î¿¼
+## å‚è€ƒ
 
 [wrest-chat](https://github.com/opentdp/wrest-chat)
-
 [WeChatFerry](https://github.com/lich0821/WeChatFerry)
 
